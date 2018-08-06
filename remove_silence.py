@@ -17,4 +17,4 @@ if __name__ == '__main__':
 
     duration = len(sound)
     trimmed_sound = sound[start_trim:duration-end_trim]
-    trimmed_sound.export('audio_without_silence.mp4', format="mp4")
+    trimmed_sound.export('audio_without_leading_silence.mp4', format="mp4")
